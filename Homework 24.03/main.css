@@ -1,0 +1,49 @@
+
+
+html, body {
+    height: 100%;
+    background-color: #34495e;
+}
+
+body>h1 {
+    font-family: Verdana;
+    color: #fff;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 130px;
+    background-color: #e74c3c;
+}
+
+.image {
+    width: 130px;
+    background-image: url("Images/Person placeholder.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.content {
+    width: 250px;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 15px;
+}
+
+.content span {
+    color: #f1c40f;
+    font-weight: normal;
+}
+
+.padding {
+    background-color: transparent;
+}
