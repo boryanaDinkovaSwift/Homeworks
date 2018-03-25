@@ -5,6 +5,11 @@ html, body {
     background-color: #34495e;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+
 body>h1 {
     font-family: Verdana;
     color: #fff;
@@ -21,10 +26,11 @@ td {
 }
 
 .image {
-    width: 130px;
+    width: 160px;
     background-image: url("Images/Person placeholder.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
+    border: 5px solid transparent;
 }
 
 .content {
